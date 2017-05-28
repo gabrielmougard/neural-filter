@@ -45,7 +45,9 @@ the resulting picture is quite disgusting ( Though, I precised only 10 iteration
 ![output_image](Pictures/100iterations.png)
 
 (It is important to notice that color-preservation has been avoided in this picture...)
-We can easily figure it out with the argument : `--preserve-colors True`
+We can easily figure it out with the argument : `--preserve-colors True` (see below )
+
+![output_image_with_colors](Pictures/final_with_colors.png)
 
 ## Quick Conclusion :
 
