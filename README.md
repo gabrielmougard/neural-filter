@@ -27,8 +27,8 @@ However, you must fill a couple of conditions :
      (if your PATH isn't 'py', replace it with your PATH calling python) 
      
 the files `max.png` and `gogh.png` in the command, are respectively the base image and the style image ( see below...)
-![base_image](pictures/max.png)
-![style_image](pictures/gogh.png)
+![base_image](Pictures/max.png)
+![style_image](Pictures/gogh.png)
 
 the resulting picture is quite disgusting ( Though, I precised only 10 iterations in argument so it's normal)
-![output_image](pictures/image_sortie.png)
+![output_image](Pictures/image_sortie.png)
