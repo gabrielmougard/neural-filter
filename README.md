@@ -14,7 +14,7 @@ However, you must fill a couple of conditions :
       * functools
       
   - Moreover, you've to download ' imagenet-vgg-verydeep-19.mat ' which is the network you're going to use. That's a big one ( ~550Mo) but it's quite powerful... You can find it at http://www.vlfeat.org/matconvnet/pretrained/
-  You can put it in your working directory... It'll work for the future. 
+  You can put it in your working directory... It'll work for the future. Or you can use the argument `--network <path/of/your/file>`
   
   
   ## HOW TO 
