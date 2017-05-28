@@ -31,3 +31,4 @@ the files `max.png` and `gogh.png` in the command, are respectively the base ima
 ![style_image](pictures/gogh.png)
 
 the resulting picture is quite disgusting ( Though, I precised only 10 iterations in argument so it's normal)
+![output_image](pictures/image_sortie.png)
