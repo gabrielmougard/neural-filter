@@ -32,3 +32,13 @@ the files `max.png` and `gogh.png` in the command, are respectively the base ima
 
 the resulting picture is quite disgusting ( Though, I precised only 10 iterations in argument so it's normal)
 ![output_image](Pictures/image_sortie.png)
+
+
+* And now with 100 iterations ( I have to say that the process is extremely loooong ! (if you are using your CPU instead of your GPU)
+  - For my part, I had a new laptop ( running on windows 10 ) and the compatibility between TensorFlow en widows suck ! So I am still   trying to install TensorFlow-GPU but you may encounter a bunch of problems !! ( Vive Linux ! )
+  
+* command :
+
+  `py neural_transfer.py --content C:\Users\gabri\neural-filter\max.png --styles C:\Users\gabri\neural-filter\gogh.png --output output_image.png --iterations 100`
+  
+* Result : 
