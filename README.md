@@ -22,7 +22,7 @@ However, you must fill a couple of conditions :
   * first you have to open a terminal and change your current directory to your working directory 
   * Then you can enter the following command ( it's and example ):
   
-    `py neural_transfer.py --content C:\Users\gabri\Pictures\max.png --styles C:\Users\gabri\Pictures\gogh.png --output image_sortie.png --iterations 10`
+    `py neural_filter.py --content C:\Users\gabri\Pictures\max.png --styles C:\Users\gabri\Pictures\gogh.png --output image_sortie.png --iterations 10`
   
      (if your PATH isn't 'py', replace it with your PATH calling python) 
       
