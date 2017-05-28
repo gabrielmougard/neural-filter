@@ -42,3 +42,12 @@ the resulting picture is quite disgusting ( Though, I precised only 10 iteration
   `py neural_filter.py --content C:\Users\gabri\neural-filter\max.png --styles C:\Users\gabri\neural-filter\gogh.png --output output_image.png --iterations 100`
   
 * Result : 
+![output_image](Pictures/100iterations.png)
+
+(It is important to notice that color-preservation has been avoided in this picture...)
+We can easily figure it out with the argument : `--preserve-colors True`
+
+## Quick Conclusion :
+
+Running the program on windows 10 (i.e with no TensorFlow-GPU ), I had to wait almost 2 hours to have the 100 iterations picture.
+The speed could be really increased ( 3-4 minutes for 1000 iterations) with a good GPU ( very good...) and a Linux system with TensorFlow-GPU installed and configured !
