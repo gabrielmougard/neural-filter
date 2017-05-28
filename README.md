@@ -39,6 +39,6 @@ the resulting picture is quite disgusting ( Though, I precised only 10 iteration
   
 * command :
 
-  `py neural_transfer.py --content C:\Users\gabri\neural-filter\max.png --styles C:\Users\gabri\neural-filter\gogh.png --output output_image.png --iterations 100`
+  `py neural_filter.py --content C:\Users\gabri\neural-filter\max.png --styles C:\Users\gabri\neural-filter\gogh.png --output output_image.png --iterations 100`
   
 * Result : 
