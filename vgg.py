@@ -8,7 +8,7 @@ import numpy as np
 import scipy.io
 
 VGG19_LAYERS = (
-    'conv1_1', 'relu1_1', 'conv1_2', 'relu1_2', 'pool1',
+    'conv1_1', 'relu1_1', 'conv1_2', 'relu1_2', 'pool1',          #rectifier linear unit (ReLu)
 
     'conv2_1', 'relu2_1', 'conv2_2', 'relu2_2', 'pool2',
 
