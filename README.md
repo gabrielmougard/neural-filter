@@ -25,5 +25,9 @@ However, you must fill a couple of conditions :
     `py neural_filter.py --content C:\Users\gabri\Pictures\max.png --styles C:\Users\gabri\Pictures\gogh.png --output image_sortie.png --iterations 10`
   
      (if your PATH isn't 'py', replace it with your PATH calling python) 
-      
-      
+     
+the files `max.png` and `gogh.png` in the command, are respectively the base image and the style image ( see below...)
+![base_image](pictures/max.png)
+![style_image](pictures/gogh.png)
+
+the resulting picture is quite disgusting ( Though, I precised only 10 iterations in argument so it's normal)
