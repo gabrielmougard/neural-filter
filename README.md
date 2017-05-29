@@ -51,5 +51,5 @@ We can easily figure it out with the argument : `--preserve-colors True` (see be
 
 ## Quick Conclusion :
 
-Running the program on windows 10 (i.e with no TensorFlow-GPU ), I had to wait almost 2 hours to have the 100 iterations picture.
+Running the program on windows 10 (i.e with no TensorFlow-GPU ), I had to wait almost 2 hours ( 1h40min to be exact) to have the 100 iterations picture.
 The speed could be really increased ( 3-4 minutes for 1000 iterations) with a good GPU ( very good...) and a Linux system with TensorFlow-GPU installed and configured !
