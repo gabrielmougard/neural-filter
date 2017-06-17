@@ -13,6 +13,37 @@ However, you must fill a couple of conditions :
       * PIL ( Python Imaging Library ) 
       * functools
       
+ # Install dependencies :
+    * install on your laptop python 3.5 ( or Anaconda 3.5 ) 
+    * then go to the terminal and enter the following commands :
+        `pip3 install tensorflow`
+        or 
+        `pip install tensorflow`
+        if it doesn't work try : 
+        `pip install --upgrade https://storage.googleapis.com/tensorflow/windows/cpu/tensorflow-0.12.1-cp35-cp35m-win_amd64.whl`
+        
+         ( for more information you can go here https://www.tensorflow.org/versions/r0.12/get_started/os_setup )
+         
+    * do the same thing for Scipy :
+    `pip install scipy` 
+    or 
+    `pip3 install scipy`
+    
+    * (for those on Windows) for Numpy ( you'll have to install mkl with it), go to http://www.lfd.uci.edu/~gohlke/pythonlibs/ and download `numpy‑1.11.3+mkl‑cp35‑cp35m‑win_amd64.whl` ( for 64 bits)  or
+    `numpy‑1.11.3+mkl‑cp35‑cp35m‑win32.whl` ( for 32 bits )
+    
+    Once downloaded, change your directory to the directory containing your .whl file and enter : 
+    
+    `pip install numpy‑1.11.3+mkl‑cp35‑cp35m‑win32.whl` 
+    or 
+    `pip install numpy‑1.11.3+mkl‑cp35‑cp35m‑win_amd64.whl` 
+    ( according to your system 32 or 64 bits)
+    
+    * PIL is easily installed with pip or pip3 with the command `pip install PIL`
+    
+    (N.B : if `pip` is not installed, install it or you can also use `easy_install` instead of `pip`, the command is similar)
+    
+      
   - Moreover, you've to download ' imagenet-vgg-verydeep-19.mat ' which is the network you're going to use. That's a big one ( ~550Mo) but it's quite powerful... You can find it at http://www.vlfeat.org/matconvnet/pretrained/
   You can put it in your working directory... It'll work for the future. Or you can use the argument `--network <path/of/your/file>`
   
